@@ -14,7 +14,7 @@ import (
 
 	"github.com/fortinetdev/forti-sdk-go/fortimanager2/auth"
 	"github.com/fortinetdev/forti-sdk-go/fortimanager2/config"
-	"github.com/fortinetdev/forti-sdk-go/fortimanager2/request"
+	"github.com/lperdereau/forti-sdk-go/fortimanager2/request"
 	// "strconv"
 )
 

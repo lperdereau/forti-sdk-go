@@ -12,7 +12,7 @@ import (
 
 	"github.com/fortinetdev/forti-sdk-go/fortios/auth"
 	"github.com/fortinetdev/forti-sdk-go/fortios/config"
-	"github.com/fortinetdev/forti-sdk-go/fortios/request"
+	"github.com/lperdereau/forti-sdk-go/fortios/request"
 	// "strconv"
 )
 

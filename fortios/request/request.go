@@ -109,7 +109,7 @@ func (r *Request) Send2(retries int, ignvdom bool) error {
 
 
 func buildURL3(r *Request, vdomparam string) string {
-	u := "https://"
+	u := "http://"
 	u += r.Config.FwTarget
 	u += r.Path
 	u += "?"

@@ -184,7 +184,7 @@ func filterapikey(v string) string {
 }
 
 func buildURLWithoutVdom(r *Request) string {
-	u := "https://"
+	u := "http://"
 	u += r.Config.FwTarget
 	u += r.Path
 	u += "?"
@@ -196,7 +196,7 @@ func buildURLWithoutVdom(r *Request) string {
 }
 
 func buildURL(r *Request) string {
-	u := "https://"
+	u := "http://"
 	u += r.Config.FwTarget
 	u += r.Path
 	u += "?"

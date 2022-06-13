@@ -117,7 +117,7 @@ func (r *Request) Send() error {
 }
 
 func buildURL(r *Request) string {
-	u := "https://"
+	u := "http://"
 	u += r.Config.FwTarget
 	u += r.Path
 	u += "?"
@@ -170,7 +170,7 @@ func buildURL(r *Request) string {
 // }
 
 // func buildURL(r *Request) string {
-// 	u := "https://"
+// 	u := "http://"
 // 	u += r.Config.FwTarget
 // 	u += r.Path
 // 	u += "?"
